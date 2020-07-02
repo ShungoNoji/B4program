@@ -1,0 +1,6 @@
+filename,order,age,gender,anger,comtempt,disgust,fear,happiness,neutral,sadness,surprise,Lat,Lon,画像サイズ,35mm換算,曜日,日付,時分,時,時間帯,,,人数,笑顔人数,rate
+Average,,=average(C5:C5000),,=average(E5:E5000),=average(F5:F5000),=average(G5:G5000),=average(H5:H5000),=average(I5:I5000),=average(J5:J5000),=average(K5:K5000),=average(L5:L5000),,,,,,,,,,,男性,"=COUNTIF(D5:D5000,""male"")","=COUNTIFS(D5:D5000,""male"",I5:I5000,"">0.5"")",=X2/W2
+Var,,=VAR.S(C5:C5000),,=VAR.S(E5:E5000),=VAR.S(F5:F5000),=VAR.S(G5:G5000),=VAR.S(H5:H5000),=VAR.S(I5:I5000),=VAR.S(J5:J5000),=VAR.S(K5:K5000),=VAR.S(L5:L5000),,,,,,,,,,,女性,"=COUNTIF(D5:D5000,""female"")","=COUNTIFS(D5:D5000,""female"",I5:I5000,"">0.5"")",=X3/W3
+STD,,=STDEV.S(C5:C5000),,=STDEV.S(E5:E5000),=STDEV.S(F5:F5000),=STDEV.S(G5:G5000),=STDEV.S(H5:H5000),=STDEV.S(I5:I5000),=STDEV.S(J5:J5000),=STDEV.S(K5:K5000),=STDEV.S(L5:L5000)
+002A12
+002A23
